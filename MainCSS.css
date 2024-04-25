@@ -1,29 +1,23 @@
-.Fadein {
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
     
-    animation-name: FadeIn;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-
+   opacity:0;  /* make things invisible upon start */
+   animation:fadeIn ease-in 1;
+   animation-fill-mode:forwards;
+   animation-duration:1.4s;
+    
 }
-
-@keyframes FadeIn {
-    
-    0% {
-        opacity: 0;
-    }
-    
-    100% {
-        opacity: 1;
-    }
-    
+ 
+.fade-in.delayed {
+  animation-delay: 1.4s;
 }
 
 .SlideInL {
     
     animation-name: SlideInL;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: ease;
     
 }
@@ -31,11 +25,13 @@
 @keyframes SlideInL {
     
     from {
-        margin-left: 100%
+        margin-left: 100%;
+        opacity: 0;
     }
     
     to {
-        margin-left: 0%
+        margin-left: 0%;
+        opacity: 1;
     }
     
 }
@@ -90,4 +86,9 @@
 
 .lights {
     animation: lights 5s 750ms infinite;
+}
+
+div {
+    white-space: nowrap;
+    overflow: hidden;
 }
