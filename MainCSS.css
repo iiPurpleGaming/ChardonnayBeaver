@@ -92,3 +92,15 @@ div {
     white-space: nowrap;
     overflow: hidden;
 }
+
+body {
+    background-color: #D8D7DF;
+}
+
+p {
+    color: #C6A1CF;
+}
+
+h1 {
+    color: #A7BCD6;
+}
