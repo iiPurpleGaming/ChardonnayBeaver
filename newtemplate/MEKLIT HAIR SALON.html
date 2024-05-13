@@ -94,72 +94,37 @@ family. </p>
                 <img src="image of chardonnay.jpg" alt="chardonnay beaver">
                 <h3>BEAUTY PRODUCTS</h3>
                 <p>Haircuts Coloring,Haircuts Extensions,and Braiding</p>
-             </section>
-             </section>
-<section id="lookbook" class="lookbook">
-            <h2>OUR LOOKBOOK</h2>
-            <!-- partial:index.partial.html -->
-            <div class="container">
-                <div class="wgh-slider">
-                    <input class="wgh-slider-target" type="radio" id="slide-1" name="slider">
-                    <input class="wgh-slider-target" type="radio" id="slide-2" name="slider">
-                    <input class="wgh-slider-target" type="radio" id="slide-3" name="slider" checked="checked">
-                    <input class="wgh-slider-target" type="radio" id="slide-4" name="slider">
-                    <input class="wgh-slider-target" type="radio" id="slide-5" name="slider">
-                    <div class="wgh-slider__viewport">
-                        <div class="wgh-slider__viewbox">
-                            <div class="wgh-slider__container">
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="./MEKLIT HAIR SALON_files/FB_IMG_1701128135293.jpg" alt="The 5th Exotic">
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://avelauw.github.io/MeklietHairSalon/#">Formal Hair
-                                                    Styling</a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-1" title="Show product 1"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="./MEKLIT HAIR SALON_files/istockphoto-1411157742-612x612.jpg" alt="The 5th Exotic">
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://avelauw.github.io/MeklietHairSalon/#">Haircuts and
-                                                    Styling</a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-2" title="Show product 2"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="./MEKLIT HAIR SALON_files/Pink-hair-color-for-black-women.jpg" alt="The 5th Exotic">
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://avelauw.github.io/MeklietHairSalon/#">Fashion Hair
-                                                    Color</a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-3" title="Show product 3"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="./MEKLIT HAIR SALON_files/5-black-hairstyle-with-long-braids-Coshc2uN6GS.webp" alt="The 5th Exotic">
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://avelauw.github.io/MeklietHairSalon/#">Hair
-                                                    Styling</a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-4" title="Show product 4"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img class="wgh-slider-item-figure__image" src="./MEKLIT HAIR SALON_files/hair wash.jpg" alt="RYSY - Traveler LP">
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="https://avelauw.github.io/MeklietHairSalon/#">Hair
-                                                    Spa</a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-5" title="Show product 5"></label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- partial -->
+            </section>
+            <section>    
+<div class="row">
+  <div class="column">
+    <img src="IMG_beaver.jpg" alt="chardonnay beaver" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="IMG_beaver2.jpg" alt="chardonnay beaver" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="IMG_beaver3.jpg" alt="chardonnay beaver" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="IMG_beaver4" alt="chardonnay beaver" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="IMG_beaver5" alt="chardonnay beaver" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
 
         </section>
 
