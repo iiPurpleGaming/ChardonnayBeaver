@@ -76,7 +76,7 @@ ul li {
 /* ============= main section ================*/
 
 main {
-  background: url("Pink-hair-color-for-black-women.jpg"), #A7BCD6;
+  background: url(""), #A7BCD6;
   background-repeat: no-repeat, no-repeat;
   /* background-position: center center, center center; */
   /* background-attachment: fixed, fixed; */
@@ -97,6 +97,7 @@ main h1 {
   padding-top: 100px;
   padding-bottom: 10px;
   color: #886c8e;
+    justify-content: center;
 }
 
 main h1+p {

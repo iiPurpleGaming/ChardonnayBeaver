@@ -20,6 +20,7 @@
 
     main section {
         width: 650px;
+        justify-self: center;
     }
 
     main>section>* {
