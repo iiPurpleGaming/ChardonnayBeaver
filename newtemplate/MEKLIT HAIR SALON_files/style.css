@@ -76,12 +76,13 @@ ul li {
 /* ============= main section ================*/
 
 main {
+    text-align: center;
   background: url(""), #A7BCD6;
   background-repeat: no-repeat, no-repeat;
   /* background-position: center center, center center; */
   /* background-attachment: fixed, fixed; */
   background-size: cover, cover;
-  height: 600px;
+  height: 600px;    
 }
 
 main>section>* {
@@ -229,7 +230,7 @@ main h1+p {
 footer {
   padding-top: 2px;
   display: flex;
-  background: #C3B3AE;
+  background: #A7BCD6;
   justify-content: center;
   padding-bottom: 20px;
 }
