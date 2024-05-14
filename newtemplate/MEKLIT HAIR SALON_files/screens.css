@@ -30,6 +30,7 @@
     main h1 {
         font-size: 6rem;
         padding-top: 88px;
+        justify-content: center;
     }
 
     main {
