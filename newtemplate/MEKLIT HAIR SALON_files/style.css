@@ -82,7 +82,7 @@ main {
   /* background-position: center center, center center; */
   /* background-attachment: fixed, fixed; */
   background-size: cover, cover;
-  height: 600px;    
+  height: 450px;    
 }
 
 main>section>* {
@@ -161,26 +161,29 @@ main h1+p {
 /* ============= about section ================*/
 
 .aboutUs {
-  margin: 100px 0 50px 0;
+  margin: 50px 0 50px 0;
 
 }
 
 .aboutUs h3 {
-  font-size: 3.5rem;
+  font-size: 26px;
+     margin: 1px 0 50px 0;
 }
 
 .aboutUs h1 {
-  font-size: 2.5rem;
+  font-size: 20px;
+    margin: 1px 0 0 0;
 }
 
 .aboutUs p {
-  font-size: 1.75rem;
-  padding-bottom: 50px;
+  font-size: 16px;
+  padding-bottom: 5px;
 }
 
 .aboutUs a {
   text-decoration: none;
-
+    font-size: 16px;
+    padding-bottom: 5px;
 }
 
 /* ============= services section ================*/
@@ -191,6 +194,7 @@ main h1+p {
   text-align: center;
   padding: 10px 0;
   background: #D8D7DF;
+    padding-bottom: 50px;
 
 }
 
