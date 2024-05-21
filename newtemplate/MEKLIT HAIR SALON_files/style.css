@@ -348,3 +348,9 @@ footer p {
 .contact h5 {
   margin: 0;
 }
+
+hr {
+    color: #3a1b0f;
+    border: 1px;
+    border-color: #3a1b0f;
+}
